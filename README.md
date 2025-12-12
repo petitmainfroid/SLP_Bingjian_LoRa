@@ -132,6 +132,7 @@ When the model capacity is severely limited, restricting updates to a low-rank s
 ---
 
 ## Repository Structure
+---
 ├── trainer/
 │   ├── train_pretrain.py        # Pretraining from scratch
 │   ├── train_lora.py            # LoRA fine-tuning
