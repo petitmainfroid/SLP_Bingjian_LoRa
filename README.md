@@ -132,23 +132,22 @@ When the model capacity is severely limited, restricting updates to a low-rank s
 ---
 
 ## Repository Structure
----
 ├── trainer/
-│   ├── train_pretrain.py        # Pretraining from scratch
-│   ├── train_lora.py            # LoRA fine-tuning
-│   └── train_full_sft.py        # Full fine-tuning (FFT)
+│ ├── train_pretrain.py # Pretraining from scratch
+│ ├── train_lora.py # LoRA fine-tuning
+│ └── train_full_sft.py # Full fine-tuning (FFT)
 ├── evaluation/
-│   ├── qualitative_prompts.md   # Manual qualitative evaluation prompts
-│   └── model_outputs/           # Saved model outputs for inspection
+│ ├── qualitative_prompts.md # Manual qualitative evaluation prompts
+│ └── model_outputs/ # Saved model outputs for inspection
 ├── model/
-│   ├── __init__.py              # Module initialization
-│   ├── model_minimind.py        # Base causal language model definition
-│   ├── model_lora.py            # LoRA adapter implementation
-│   ├── tokenizer.json           # Tokenizer vocabulary
-│   ├── tokenizer_config.json    # Tokenizer configuration
-│   └── __pycache__/             # Python cache files
-├── eval_llm.py                  # Script for qualitative LLM evaluation
-├── README.md
+│ ├── init.py # Module initialization
+│ ├── model_minimind.py # Base causal language model definition
+│ ├── model_lora.py # LoRA adapter implementation
+│ ├── tokenizer.json # Tokenizer vocabulary
+│ ├── tokenizer_config.json # Tokenizer configuration
+│ └── pycache/ # Python cache files
+├── eval_llm.py # Script for qualitative LLM evaluation
+└── README.md
 
 ---
 
