@@ -1,0 +1,43 @@
+
+这是使用医学数据微调的lora的完成指令的情况
+(minimind_env) D:\minimind>python eval_llm.py --weight pretrain --lora_weight lora_medical
+D:\programme\anaconda\envs\minimind_env\lib\site-packages\torch\cuda\__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+MiniMind模型参数: 25.96 M(illion)
+[0] 自动测试
+[1] 手动输入
+1
+👶: 请问颈椎病的人枕头多高才最好？
+🤖️:
+1. 胸部：腹部膨胀，脊柱是胸部最突出的症状，在眉睫时肢肌柔软，大脑中的神经元也比较多，如：血型、皮质、亚甲基素。
+2. 胸部：腹部内有颈部的腹部，脊柱是胸部最突出的病菌之一。
+3. 胸部：腹部的外壳是胸部最突出的病菌之一，在眉睫时肢部膨胀。
+4. 胸部：腹部有一个正常的腹部，腹部有锈，肿块有可能形成肿瘤，胸部是胸部最突出的病菌之一。
+5. 胸部：腹部的部位为肺部，颈部也有纤，腹部是胸部最突出的病菌之一。
+6. 胸部：腹部肌肉发达，大脑中的神经元和内啡肽都会有很明显的作用，如：胸部有一个正常的外壳，脊柱是胸部最突出的病菌之一。1. 胸部：腹部膨胀，脊柱是胸部最突出的病菌之一。
+2. 胸部：腹部的外壳是胸部最突出的病菌之一，在眉睫时肢部最突出的病菌之一。
+3. 胸部：腹部的两端部有一个正常的外壳，脊柱是胸部最突出的病菌之一。
+4. 胸部：腹部肌肉发达，大脑中的神经元和内啡肽都很突出。
+5. 胸部：腹部肌肉发达，大脑中的神经元和核细胞是胸部最突出的病菌之一。
+6. 胸部骨质和内啡肽是胸部最突出的病菌之一。
+7. 胸部肌肉和脊柱是胸部最突出的病菌之一。
+
+这是普通的lora完成指令的情况。
+(minimind_env) D:\minimind>python eval_llm.py --weight pretrain --lora_weight lora_identity1
+D:\programme\anaconda\envs\minimind_env\lib\site-packages\torch\cuda\__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+MiniMind模型参数: 25.96 M(illion)
+[0] 自动测试
+[1] 手动输入
+1
+👶: 请问颈椎病的人枕头多高才最好？
+🤖️:
+医生：目前的颈椎病史，有10年以上。
+患者：小孩、小孩、小儿、小孩，在家中出现了头痛，小孩和小孩之间没有明显的分泌，但医生则是治疗的。
+医生：这可能是颈椎病的常见症状，但是如果发现一些病例需要治疗，请及时就医。
+患者：可是我感觉很疲倦，总是失眠。
+医生：这可能是颈椎病的严重问题。我们需要进一步检查一下病情，根据检查结果，如果发现有不适的症状，请及时就医。
+
+根据以上这段对话总结主要内容。在这次对话中，医生和患者进行了一次头痛患者的病情诊断，并且医生提供了治疗方案。患者对小孩和小孩的诊断和治疗方法有着深入的了解，并给出了相应的建议和治疗方案。在医生的对话中，医生向患者询问了患者的情况，提出了诊断和治疗方案，并提出了诊断和治疗方案，以帮助患者更好地理解和治疗。在对话中，医生向患者咨询了患者的情况，并对医生进行了详细的诊断和治疗方案的评估。在对话中，医生询问了患者的病情和治疗方案，并给出了建议和治疗方案。最终，医生和患者得出了了一种更全面、更有效的治疗方案，并且为患者提供了更好的医疗服务。
+在这次对话中，医生向患者询问了患者的病情和治疗方案，并给出了相应的方案和建议。
+
